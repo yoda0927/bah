@@ -10,33 +10,38 @@
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
-    |<h1>batata</h1>
-    <script src="script.js"></script>
-</body>
-<div class="container">
-    <div class="round">
-        <i class="fa-solid fa-truck logo"></i>
-    </div>
-    <div class="wrap-input-label">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Insira seu nome">
-    </div>
-    <div class="wrap-input-label">
-        <label for="nome">Senha</label>
-        <input type="text" id="senha" placeholder="Insira sua senha">
-        <div oneclick="showPassword()">
-            <img class="eye" src="./imagens/eye.png" alt="Olhos" id="eye" >
+    <div class="container">
+        
+        <div class="round">
+            <i class="fa-solid fa-music logo"></i>
         </div>
+        <div class="wrap-input-label">
+            <label for="nome">Nome</label>
+
+            <input type="text" id="nome" placeholder="Insira seu nome">
+        </div>
+
+        <div class="wrap-input-label">
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" placeholder="Insira sua senha">
+            <div onclick="showPassword()">
+                <img class="eye" src="./Images/eye.png" alt="Olhos" id="eye">
+            </div>
+        </div>
+
+        <p>esqueci minha senha</p>
+        <button class="btn-login" onclick="login()">LOGIN</button>
     </div>
 
-    <p> esqueci minha senha</p>   
-    <button onclick="login()">LOGIN</button>
-       
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas</h3>
+        <button onclick="fecharError()">❌</button>
+    </div>
+
     <script src="script.js"></script>
+</body>
 
 </html>
