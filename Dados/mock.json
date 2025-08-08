@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "descricao": "Bandeja de Morango",
+        "imagem": "../Dados/images/morango.jpg",
+        "preco": 20.0
+    },
+    {
+        "id": 2,
+        "descricao": "Saco de Laranja",
+        "imagem": "../Dados/images/laranja.jpg",
+        "preco": 35.0
+    },
+    {
+        "id": 3,
+        "descricao": "Saco de Batata",
+        "imagem": "../Dados/images/batata.avif",
+        "preco": 40.0
+    },
+    {
+        "id": 4,
+        "descricao": "Limão unidade",
+        "imagem": "../Dados/images/limao.jpg",
+        "preco": 1.0
+    },
+    {
+        "id": 5,
+        "descricao": "Mamão unidade",
+        "imagem": "../Dados/images/mamao.jpg",
+        "preco": 16.0
+    },
+    {
+        "id": 6,
+        "descricao": "Bandeja de Cereja",
+        "imagem": "../Dados/images/cereja.jpg",
+        "preco": 60.0
+    },
+    {
+        "id": 7,
+        "descricao": "Cacho de Banana",
+        "imagem": "../Dados/images/banana.jpg",
+        "preco": 5.0
+    },
+    {
+        "id": 8,
+        "descricao": "Kiwi unidade",
+        "imagem": "../Dados/images/kiwi.jpg",
+        "preco": 3.0
+    },
+     {
+        "id": 9,
+        "descricao": "Maracujá unidade",
+        "imagem": "../Dados/images/maracuja.jpg",
+        "preco": 5.30
+    }
+]
